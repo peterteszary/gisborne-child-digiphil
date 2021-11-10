@@ -5,8 +5,9 @@ Child theme repo for Gisborne at DigiPhil
 
 Additional Custom CSS for the theme editor:
 
-/*Hide Top Bar */
-.top-bar-area{display: none;}
+/*Hide Top Bar */  
+.top-bar-area{display: none;} 
+
 
 /* Footer - to fit on lower size screens*/
 
@@ -29,6 +30,14 @@ Additional Custom CSS for the theme editor:
     position: relative;
 }
 
+/* menu-text size */
+
+.main-menu .navigation li a {
+    
+    font-size: 12px;
+   
+}
+
 
 /*Header szöveg*/
 .breadcrumb-area .breadcrumbs h1 {
@@ -40,11 +49,16 @@ Additional Custom CSS for the theme editor:
     text-align: center;
 }
 
+
+
 /*Header image*/
 
 .breadcrumb-area {
 background-image: url(http://digiphil.dev.peterteszary.com/wp-content/uploads/2021/10/digi-phil-header-green.png)!important;
+
 }
+
+
 
 /*mobile-menu*/
 /*border*/
@@ -100,3 +114,5 @@ background-image: url(http://digiphil.dev.peterteszary.com/wp-content/uploads/20
     height: 210px;
    
 }
+
+
